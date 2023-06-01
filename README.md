@@ -5,7 +5,6 @@ Projeto da Farmácia DEVinHouse, um site para uma farmácia fictícia com o intu
 🌐 **Tecnologias Utilizadas**
 - HTML
 - CSS
-- JavaScript
 - FontAwesome (biblioteca de ícones)
 
 🔍 **Live Preview**
