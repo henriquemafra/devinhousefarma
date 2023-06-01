@@ -51,7 +51,7 @@ body {
 .botao-pesquisa {
     font-size: 180%;
     position: absolute;
-    top: 9%;
+    top: 10%;
     right: 36%;
     color:  #04943c;
     transform: translateY(-50%);
