@@ -146,6 +146,8 @@ body {
 /* Titulo da página */
 
 .titulo {
+    border-top: 1px solid #7b7b7c;
+    border-bottom: 1px solid #7b7b7c;
     margin: 0;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -322,4 +324,57 @@ body {
 .texto-img {
     margin-left: 20%;
     margin-top: 5%;
+}
+
+/* Localização */
+
+.localizacao {
+    border-top: 1px solid #7b7b7c;
+    width: 100%;
+    background-color: #d6d6d9;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.localizacao-img {
+    margin-right: 10%;
+    margin-left: 20%;
+    max-width: 30%;
+    border: 2px solid #04943b;
+    border-radius: 10px;
+        
+}
+
+.texto-localizacao {
+    color: white;
+    margin-left: 10%;
+    color: #313030;
+    text-align: justify;
+    font-size: 120%;
+
+
+}
+.localizacao-icons {
+    font-size: 220%;
+    margin-right: 5%;
+    color: #04943b;
+}
+.localizacao-icons:hover {
+    color: #e20c2f;
+}
+.localizacao-icons:active {
+    transform: scale(1.1);
+}
+.footer {
+    width: 100%;
+    background-color: #d6d6d9;
+    color: #313030;
+    text-align: center;
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top: 1px solid #7b7b7c;
+
 }
