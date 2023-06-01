@@ -5,10 +5,13 @@ html {
 }
 body {
     display: contents;
-   
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
     
 }
+
+
+/* Header */
 
 .topframe {
     max-width: 100%;
@@ -25,11 +28,11 @@ body {
     margin-top: -1%;
     }
 
-.logoimg {
+.logo-img {
     max-width: 60%;
 }    
 
-.barrapesquisa {
+.barra-pesquisa {
 
     margin-top: -1.5%;
     text-align: center;
@@ -45,7 +48,7 @@ body {
 }
 
 
-.botaopesquisa {
+.botao-pesquisa {
     font-size: 180%;
     position: absolute;
     top: 9%;
@@ -57,29 +60,33 @@ body {
     outline: none;
     cursor: pointer;
   }
-  .botaopesquisa::after {
+  .botao-pesquisa::after {
     color: #04943c;
   }
 
   .icones {
     margin-right: 4rem;
     font-size: 180%;
-    color: #04943c;
-    
-    
+    color: #04943c;    
+  }
+  .icones:hover {
+    color: #e20c2f;
+}
+
+  .fa-cart-plus {
+    color: #313030
+  }
+  .fa-cart-plus:hover {
+    color: #d6d6d9    
   }
 
-  .fa-cart-plus{
-    color: black !important;
-    
-  }
-  .iconescontainer {
+.icones-container {
     position: absolute;
     top: 7.5%;
     right: 5%;
     
   }
-.navmenu {
+.nav-menu {
     position: absolute;
     width: 100%;
     margin-top: 4%;
@@ -88,21 +95,21 @@ body {
     text-align: center;
       
 }
-.navbar {
+.nav-bar {
     margin: 0;
     padding: 0;
  
 }
-.framenav {
+.header-nav {
     display: flex;  
     align-items: center;
     background-color: #e0e1e4;
     width: 100%;
-    height: 7rem;
+    height: 8rem;
 
 }
 
-.menubotao {
+.menu-botao {
     display: inline-block;
     list-style-type: none;
     margin-top: 0.4rem;
@@ -111,8 +118,101 @@ body {
 
 }
 
-.linkbotao {
+.link-botao {
     text-align: center;
     text-decoration: none;
     color: #313030
+}
+
+/* Titulo da página */
+
+.titulo-medicamentos {
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: #04943c;
+    color: white;
+}
+
+/* Cards */
+
+.cards-flex {
+    
+    padding: 2%;
+    justify-content: center;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards-produto {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+    margin-left: 2%;
+    max-width: 15%;
+    border: 1px solid #d6d6d9;
+    background-color: #d6d6d9;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.card-icone {
+    margin-left: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 180%;
+    background-color: transparent;
+    color:#04943c;
+    transition: background-color 0.3s ease;
+}
+
+.card-icone:hover {
+    color: #e20c2f;
+}
+
+.produto-img {
+    max-width: 100%;    
+    background-color: white;
+    border-top: 8px solid white;
+    border-bottom: 8px solid white;
+        
+}
+
+.titulo-card {
+    color: #313030;
+
+}
+
+.descricao-card {
+    color: #313030;
+    margin: 10%;
+}
+
+.preco-card {
+    color: #313030;
+}
+
+.botao-card {
+    color: white;
+    font-size: 100%;
+    margin-bottom: 8%;
+    padding-top: 2.5%;
+    padding-right: 5%;
+    padding-bottom: 2.5%;
+    padding-left: 5%;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #04943c;
+}
+
+.botao-card:hover {
+    background-color: #e20c2f;
+}
+.card-botao-icone {
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
 }
