@@ -43,3 +43,60 @@
     </nav>
 </div>
 <!--Fim do Header-->
+
+<!--Titulo de Contato-->
+
+<h2 class="titulo">Fale Conosco</h2>
+
+<!--Fim Titulo de Contato-->
+<!--Inicio de Formulário-->
+
+
+<h3 class="titulo-form">Formulário de contato</h3>
+
+<div class="form-container">
+
+    <form class="form" action="/enviar-contato" method="POST">
+   
+    <div class="form-subcontainer">
+      <label class="form-texto" for="nome" >Nome:</label><br>
+      <input class="form-input" type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+    </div>
+  
+    <div class="form-subcontainer">
+      <label class="form-texto" for="telefone" >Telefone para contato:</label><br>
+      <input class="form-input" type="tel" id="telefone" placeholder="Digite seu telefone com DDD" name="telefone" required>
+    </div>
+  
+    <div class="form-subcontainer">
+      <label class="form-texto" for="email">E-mail:</label><br>
+      <input class="form-input"type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+    </div>
+  
+    <div class="form-subcontainer">
+      <label class="form-texto" for="assunto">Assunto:</label><br>
+      <select class="form-input" id="assunto" name="assunto" required>
+        <option class="form-texto" value="">Selecione o assunto</option>
+        <option class="form-texto" value="comercial">Comercial</option>
+        <option class="form-texto" value="duvidas">Duvidas</option>
+        <option class="form-texto" value="orcamento">Orçamento</option>
+      </select>
+    </div>
+  
+    <div class="form-subcontainer">
+      <label class="form-texto" for="mensagem">Sua mensagem:</label><br>
+      <textarea class="form-input" id="mensagem" name="mensagem" rows="4" placeholder="Digite mais detalhes sobre sua solicitação" required></textarea>
+    </div>
+  
+    <div class="form-subcontainer">
+      <input type="checkbox" id="orcamento" name="orcamento">
+      <label class="form-texto" for="orcamento">Esta mensagem é sobre um orçamento</label>
+    </div>
+  
+    <button class="botao-form" type="submit">Enviar</button>
+  </form>
+  <div>
+    <h2 class="texto-img">Estamos aguardando ansiosos pelo seu contato!</h2>
+    <img class="pessoas-form-img" src="img/pessoascima.png" alt=""></div>
+</div>
+  <!--Fim de Formulário-->

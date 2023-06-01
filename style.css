@@ -145,7 +145,7 @@ body {
 
 /* Titulo da página */
 
-.titulo-medicamentos {
+.titulo {
     margin: 0;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -239,4 +239,87 @@ body {
     color: white;
     font-weight: bold;
     font-size: 120%;
+}
+
+/* Formulario */
+
+.form-container {
+    max-width: 100%;
+    padding-top: 1%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    
+}
+
+.form {
+    margin-left: 10%;
+    margin-bottom: 2.5%;
+    padding-top: 2.5%; 
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2.5%;
+    width: 20%;
+    border: 1px solid #04943c;
+    border-radius: 10px;
+       
+}
+
+.form-texto {
+    font-size: 100%;
+    color: #313030;
+    text-align: center;
+}
+
+.form-subcontainer {
+    margin-bottom: 5%;
+}
+
+.form-input {
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0%;
+    border: 2px solid #04943c;
+    border-radius: 10px;
+}
+
+.titulo-form {
+    margin-left: 10%;
+    padding-top: 2%;
+    text-align: left;
+    margin-bottom: 0;
+    }
+.botao-form {
+    background-color: #04943c;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    font-size: 120%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 40%;
+}    
+.botao-form:hover {
+    background-color: #e20c2f;
+}
+.botao-form:active {
+    transform: scale(1.1);
+
+}
+
+.pessoas-form-img {
+    max-width: 40%;
+    margin-left: 25%;
+    margin-top: 3%;
+    background-color: #04943b;
+    border-radius: 80%;
+    box-shadow:20px 20px 20px #0000002d
+}
+
+.texto-img {
+    margin-left: 20%;
+    margin-top: 5%;
 }
