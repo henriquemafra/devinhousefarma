@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ubuntu:wght@300&display=swap');
+/* otimização temporária */
+
 
 html {
     margin: 0;
@@ -29,46 +31,48 @@ body {
     }
 
 .logo-img {
-    max-width: 60%;
+    max-width: 100%;
 }    
-
-.barra-pesquisa {
-
-    margin-top: -1.5%;
-    text-align: center;
-    position: absolute;
-    left: 49%;
-    transform: translateX(-50%);
-    width: 30%;
-    height: 5%;
-    border: 1px solid #04943c;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+.pesquisa-container {
+    display: flex;
+    margin-left: 15%;
+    margin-top: -2%;
+    width: 100%;
     
-}
+  }
+  
+  .barra-pesquisa {
 
+    padding: 1.5%;
+    width: 40%;
+    height: 40%;
+    border: 1px solid #04943c;
+    border-radius: 15px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+   
+  }
+  
+  .botao-pesquisa {
+    font-size: 150%;
+    color: #04943c;
+    margin-left: -4%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 0.9%;
+    border-radius: 15px;    
+    background-color: #d6d6d9;
+    border: 1px solid #07070775;
 
-.botao-pesquisa {
-    font-size: 180%;
-    position: absolute;
-    top: 9.5%;
-    right: 36%;
-    color:  #04943c;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 10px 10px 10px 10px;
-    padding-bottom: 0.5%;
-    padding-top: 0.4%;
-    padding-left: 0.7%;
-    padding-right: -0.1%
+    
+    
   }
   .botao-pesquisa:hover {
-    color: #e20c2f;
+    color: white;
   }
- 
+  .botao-pesquisa:active {
+    transform: scale(1.1)
+  }
   .icones {
     margin-right: 4rem;
     font-size: 180%;
@@ -160,9 +164,7 @@ body {
 
 .banner {
     width: 100vw;
-    height: 50vh;
-    margin: -2.3%;
-    background-color: transparent;
+    margin: 0 !important;
     
   }
 
