@@ -123,9 +123,9 @@ body {
 .menu-botao {
     display: inline-block;
     list-style-type: none;
-    margin-top: 0.4rem;
+    margin-top: 0.8rem;
     margin-right: 1.5rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 
@@ -156,7 +156,29 @@ body {
     color: white;
 }
 
+/*Banner*/
+
+.banner {
+    width: 100vw;
+    height: 50vh;
+    margin: -2.3%;
+    background-color: transparent;
+    
+  }
+
 /* Cards */
+
+.titulo-mais-vendidos {
+    background-color: #04943b;
+    padding-top: 0.01%;
+    padding-bottom: 0.01%;
+    margin-top: -0.1%;
+    
+}
+.texto-mais-vendidos {
+    margin-left: 13.5%;
+    color: white;
+}
 
 .cards-flex {
     
@@ -262,7 +284,7 @@ body {
     padding-right: 10%;
     padding-bottom: 2.5%;
     width: 20%;
-    border: 1px solid #04943c;
+    background-color: #d6d6d9;
     border-radius: 10px;
        
 }
@@ -275,14 +297,15 @@ body {
 
 .form-subcontainer {
     margin-bottom: 5%;
+    
 }
 
 .form-input {
     width: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-top: 0%;
-    border: 2px solid #04943c;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 2%;
+    border: 1px solid #04943c;
     border-radius: 10px;
 }
 
@@ -326,6 +349,42 @@ body {
     margin-top: 5%;
 }
 
+/* Quem Somos */
+
+.quem-somos {
+    color: #313030;
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+    margin-right: 0;
+    margin-bottom: 3%;
+    width: 100%;
+  }
+  
+  .titulo-quem-somos {
+    color: white;
+  }
+  
+  .texto-quem-somos {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .texto-container {
+    width: 40%;
+  }
+  
+  .imagem-container {
+    width: 40%;
+    
+  }
+  
+  .img-sobre {
+    max-width: 100%;
+    margin-left: 10%; 
+  }
+  
 /* Localização */
 
 .localizacao {
