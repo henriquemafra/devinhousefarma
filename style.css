@@ -51,7 +51,7 @@ body {
 .botao-pesquisa {
     font-size: 180%;
     position: absolute;
-    top: 10%;
+    top: 9.5%;
     right: 36%;
     color:  #04943c;
     transform: translateY(-50%);
@@ -59,11 +59,16 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 0.5%;
+    padding-top: 0.4%;
+    padding-left: 0.7%;
+    padding-right: -0.1%
   }
-  .botao-pesquisa::after {
-    color: #04943c;
+  .botao-pesquisa:hover {
+    color: #e20c2f;
   }
-
+ 
   .icones {
     margin-right: 4rem;
     font-size: 180%;
@@ -72,12 +77,18 @@ body {
   .icones:hover {
     color: #e20c2f;
 }
+.icones:active {
+    transform: scale(1.2);
+}
 
   .fa-cart-plus {
     color: #313030
   }
   .fa-cart-plus:hover {
     color: #d6d6d9    
+  }
+  .fa-cart-plus:active {
+    transform: scale(1.2);
   }
 
 .icones-container {
@@ -115,13 +126,21 @@ body {
     margin-top: 0.4rem;
     margin-right: 1.5rem;
     font-size: 1rem;
-
 }
+
+
 
 .link-botao {
     text-align: center;
     text-decoration: none;
     color: #313030
+}
+.link-botao:hover {
+    color: #7b7b7c;
+}
+.link-botao:actived {
+    color: #7b7b7c;
+    background-color: #31303027;
 }
 
 /* Titulo da página */
@@ -172,7 +191,9 @@ body {
 .card-icone:hover {
     color: #e20c2f;
 }
-
+.card-icone:active {
+    transform: scale(1.2);
+}
 .produto-img {
     max-width: 100%;    
     background-color: white;
@@ -210,6 +231,9 @@ body {
 
 .botao-card:hover {
     background-color: #e20c2f;
+}
+.botao-card:active {
+    transform: scale(1.1);
 }
 .card-botao-icone {
     color: white;
