@@ -33,7 +33,18 @@
 
   @media (min-width: 768px) {
     .wrapper {
-        margin: 0px 100px; /* Define a largura das margens laterais */
+        margin: 0px 100px;
+      }
+
+      p {
+        font-size: 18px !important;
+      }
+      body {
+        font-size: 18px !important;
+      }
+      label {
+        font-size: 18px !important;
+        padding-top: 1rem !important;
       }
 
       .card:hover {
@@ -199,43 +210,6 @@
     
 }
 
- /* Icones Grandes */
-
- .icone-grande-azul {
-    background-color: #344bf0;
-    color: white;
-    font-size: 2.5rem;
-    padding: 2rem;
-    border-radius: 100px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra uniforme */
-  }
-  
-  .icone-grande-laranja {
-    background-color: #fc8742;
-    color: white;
-    padding: 2rem;
-    font-size: 2.5rem;
-    border-radius: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra uniforme */
-  }
-  
-  .icone-grande-azul:hover {
-    background-color: #344bf0;
-    color: white;
-    font-size: 2.5rem;
-    padding: 2rem;
-    border-radius: 100px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra uniforme */
-  }
-  
-  .icone-grande-laranja {
-    background-color: #fc8742;
-    color: white;
-    padding: 2rem;
-    font-size: 2.5rem;
-    border-radius: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra uniforme */
-  }
 
  /* Frame */
 
@@ -419,12 +393,12 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .localizacao-icons {
     color:  #fc8742;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-right: 1rem;
 }
 
 .localizacao-icons:hover {
-    font-size: 3rem !important;
+    font-size: 2rem !important;
     color: #ffff;
     
     

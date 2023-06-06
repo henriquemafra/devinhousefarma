@@ -16,11 +16,11 @@ Confira o projeto em execução no seguinte link: [Live Preview](http://henrique
 
 🖼️ **Capturas de Tela**
 
-![Captura de Tela](screenshots/screenshot1.png)
-![Captura de Tela](screenshots/screenshot2.png)
-![Captura de Tela](screenshots/screenshot3.png)
-![Captura de Tela](screenshots/screenshot4.png)
-![Captura de Tela](screenshots/screenshot5.png)
+![Captura de Tela](screenshots/1.png)
+![Captura de Tela](screenshots/2.png)
+![Captura de Tela](screenshots/3.png)
+![Captura de Tela](screenshots/4.png)
+![Captura de Tela](screenshots/5.png)
 
 📚 **Recursos**
 - Barra de pesquisa para buscar medicamentos por nome.
