@@ -70,6 +70,10 @@
 
     }
 
+    html {
+        zoom: 0.75 !important;
+      }
+
 /* MOBILE */
 
 /*Pesquisa */ 
