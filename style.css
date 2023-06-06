@@ -35,6 +35,15 @@
     .wrapper {
         margin: 0px 100px; /* Define a largura das margens laterais */
       }
+
+      .card:hover {
+        border: 1px solid #000;
+        box-shadow:
+        0 0 5px rgba(0, 0, 0, 0.5),
+        0 0 5px rgba(0, 0, 0, 0.5),
+        0 0 5px rgba(0, 0, 0, 0.5),
+        0 0 5px rgba(0, 0, 0, 0.5);
+    }
       
       .content {
         margin: 0 auto;
@@ -123,6 +132,13 @@
     overflow: hidden;
 }
 
+.coracao-mobile:hover {
+    color: red !important;
+}
+.coracao-mobile {
+    font-size: 1.5rem !important;
+    color: red ;
+}
 /* Fim Estilo para Mobile */
 
 /* Inicio Estilo para Telas grandes */
@@ -182,18 +198,6 @@
     
     
 }
-.fa-heart-card {
-    color: #bcbec2;
-    font-size: 2.5rem;
-     }
-
- .fa-heart-card:active {
-    color: red;
- }
- .fa-heart-card:hover {
-    color: red;
-    font-size: 2.5rem;
- }
 
  /* Icones Grandes */
 
@@ -336,17 +340,12 @@
 
  .coracao {
     color: #bcbec2;
-    font-size: 2.5rem;
-    padding-top: 2rem !important;
-    padding-right: 2rem !important;
+    font-size: 2rem;
  }
 
- .coracao:active {
-    color: red;
- }
  .coracao:hover {
-    color: red;
-    font-size: 2.5rem;
+    color: red !important;
+    font-size: 2rem;
  }
 
 
@@ -362,14 +361,7 @@
     padding: 0 !important;
 }
 
-.card:hover {
-    border: 1px solid #000;
-    box-shadow:
-    0 0 5px rgba(0, 0, 0, 0.5),
-    0 0 5px rgba(0, 0, 0, 0.5),
-    0 0 5px rgba(0, 0, 0, 0.5),
-    0 0 5px rgba(0, 0, 0, 0.5);
-}
+
 .remedio {
     max-width: 70%;
 }
