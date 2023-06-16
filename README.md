@@ -6,6 +6,7 @@ Projeto da Farmácia DEVinHouse, um site para uma farmácia fictícia com o intu
 - HTML
 - CSS
 - FontAwesome (biblioteca de ícones)
+- BootStrap
 
 🔍 **Live Preview**
 Confira o projeto em execução no seguinte link: [Live Preview](http://henriquemafra.com.br/devinhousefarma/index.html)
